@@ -1,0 +1,10 @@
+kvasir-dataset
+RecognizingObjectsInLiveCapture
+segmented-images/all
+segmented-images/masks
+segmented-images/other-images
+segmented-images/testing
+segmented-images/training
+segmented-images/training-validation
+segmented-images/validation
+.DS_Store

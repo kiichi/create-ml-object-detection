@@ -1,0 +1,52 @@
+<html>
+    <body>
+        <button id="next" onclick="nextClicked()">Next</button><hr/>
+        <canvas id="myCanvas" width="500" height="500" ></canvas>    
+    </body>
+    <script>
+        var index = 0;
+
+        const list = {{{LIST}}};
+        
+        window.onload = function() {            
+            render(list[index]);
+        }
+
+        function nextClicked(){
+            index = (index + 1)%list.length;
+            render(list[index]);
+        }
+
+        function render(item){
+            console.log(item);
+            document.getElementById("debug").innerText = JSON.stringify(item);
+
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            const img = new Image();
+            img.src = item.image;
+            img.onload = initImage;
+            ctx.drawImage(img,500,500);
+            
+
+            function initImage() {  
+                c.width = this.naturalWidth;
+                c.height = this.naturalHeight;
+                ctx.drawImage(this, 0, 0);
+                ctx.drawImage(this, 0, 0, this.width, this.height);
+
+                var canvas = document.getElementById('myCanvas');
+                var context = canvas.getContext('2d');
+                const ann = list[index].annotations;
+                for (var i=0; i<ann.length; i++){
+                    context.beginPath();
+                    const coord = ann[i].coordinates
+                    context.rect(coord.x, coord.y, coord.width, coord.height);
+                    context.lineWidth = 3;
+                    context.strokeStyle = 'red';
+                    context.stroke();
+                }
+            }
+        }
+    </script>
+</html>
