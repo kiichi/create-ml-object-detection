@@ -1,5 +1,6 @@
 kvasir-dataset
 RecognizingObjectsInLiveCapture
+segmented-images/images
 segmented-images/all
 segmented-images/masks
 segmented-images/other-images
