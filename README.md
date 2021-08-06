@@ -4,6 +4,8 @@ Trying to use Apple's Create ML for Polyps Detection. The result was not impress
 
 - [Tried Apple’s CreateML and plugged the model into a sample app - YouTube](https://www.youtube.com/watch?v=GF25mYBaoRk) 
 
+<img src="https://raw.githubusercontent.com/kiichi/create-ml-object-detection/main/results/review-chiken.jpg" width=300/>
+
 
 
 ## Setup
