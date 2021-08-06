@@ -4,6 +4,8 @@ Trying to use Apple's Create ML for Polyps Detection. The result was not impress
 
 - [Tried Apple’s CreateML and plugged the model into a sample app - YouTube](https://www.youtube.com/watch?v=GF25mYBaoRk) 
 
+Somewhat useful tool in this project is convert.py script which you can convert hyper-kvasir data bounding box json into CreateML annotations.json format. It also move files, and generate index.html to preview the bounding box on your browser.
+
 ## Positves
 
 <img src="https://raw.githubusercontent.com/kiichi/create-ml-object-detection/main/results/review-polyps1.jpg" height=300/> <img src="https://raw.githubusercontent.com/kiichi/create-ml-object-detection/main/results/review-polyps2.jpg" height=300/>
