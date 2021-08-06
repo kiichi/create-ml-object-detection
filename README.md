@@ -1,6 +1,6 @@
 # create-ml-object-detection
 
-Trying to use Apple's Create ML for Polyps Detection. The result was not impressive though but kind ok for just trying GUI based ML training suite. Thinking of using regular python script with TensorFlow etc for my next experiments.
+Trying to use Apple's Create ML for Polyps Detection. The result was not impressive though but kind ok for just trying GUI based ML training suite for weekend fun. Thinking of using regular python script with TensorFlow etc for my next experiments.
 
 - [Tried Apple’s CreateML and plugged the model into a sample app - YouTube](https://www.youtube.com/watch?v=GF25mYBaoRk) 
 
