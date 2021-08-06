@@ -4,12 +4,13 @@ Trying to use Apple's Create ML for Polyps Detection. The result was not impress
 
 - [Tried Apple’s CreateML and plugged the model into a sample app - YouTube](https://www.youtube.com/watch?v=GF25mYBaoRk) 
 
-Positves
-<img src="https://raw.githubusercontent.com/kiichi/create-ml-object-detection/main/results/review-polyps1.jpg" width=300/><img src="https://raw.githubusercontent.com/kiichi/create-ml-object-detection/main/results/review-polyps2.jpg" width=300/>
+## Positves
 
-False-Positives
-<img src="https://raw.githubusercontent.com/kiichi/create-ml-object-detection/main/results/review-not-polyps.jpg" width=300/>
-<img src="https://raw.githubusercontent.com/kiichi/create-ml-object-detection/main/results/review-chiken.jpg" width=300/>
+<img src="https://raw.githubusercontent.com/kiichi/create-ml-object-detection/main/results/review-polyps1.jpg" height=300/> <img src="https://raw.githubusercontent.com/kiichi/create-ml-object-detection/main/results/review-polyps2.jpg" height=300/>
+
+## False-Positives
+
+<img src="https://raw.githubusercontent.com/kiichi/create-ml-object-detection/main/results/review-not-polyps.jpg" height=300/> <img src="https://raw.githubusercontent.com/kiichi/create-ml-object-detection/main/results/review-chiken.jpg" height=300/>
 
 
 
@@ -21,6 +22,9 @@ False-Positives
 - Testing set: 150
 - Batch Size: 64
 
+<img src="https://raw.githubusercontent.com/kiichi/create-ml-object-detection/main/results/settings.png" height=250/> <img src="https://raw.githubusercontent.com/kiichi/create-ml-object-detection/main/results/training.png" height=250/>
+
+
 ## Results
 
 - Loss: 1.013
@@ -29,6 +33,8 @@ False-Positives
 - Training: 90%
 - Training: 71%
 - Training: 46%
+
+<img src="https://raw.githubusercontent.com/kiichi/create-ml-object-detection/main/results/evaluation.png" height=250/>
 
 # Repo
 
