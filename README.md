@@ -56,7 +56,7 @@ it also puts training-validation folder for 850 images because I noticed that Cr
 6. After tranining is completed, build XCode project and deploy it to your phone. I used their "Breakfast Finder" sample app.
 https://developer.apple.com/documentation/vision/recognizing_objects_in_live_capture
 7. replace ObjectDetector.mlmodel with what you outputted from CreateML project.
-8. Try the app on your phone.
+8. Try [the app on your Phone](https://www.youtube.com/watch?v=GF25mYBaoRk).
 
 ## Citation
 
