@@ -8,9 +8,13 @@ Somewhat useful tool in this project is convert.py script which you can convert 
 
 ## Positves
 
+They are near polyps but most of them are not surrounding correctly. 
+
 <img src="https://raw.githubusercontent.com/kiichi/create-ml-object-detection/main/results/review-polyps1.jpg" height=300/> <img src="https://raw.githubusercontent.com/kiichi/create-ml-object-detection/main/results/review-polyps2.jpg" height=300/>
 
 ## False-Positives
+
+It detected in non-polyps pictures or even on chicken. duh
 
 <img src="https://raw.githubusercontent.com/kiichi/create-ml-object-detection/main/results/review-not-polyps.jpg" height=300/> <img src="https://raw.githubusercontent.com/kiichi/create-ml-object-detection/main/results/review-chiken.jpg" height=300/>
 
