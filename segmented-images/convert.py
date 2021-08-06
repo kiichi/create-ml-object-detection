@@ -1,4 +1,4 @@
-# kiichi
+# custom conversion script by kiichi
 import json
 import shutil
 import os
